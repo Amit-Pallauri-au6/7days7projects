@@ -1,0 +1,28 @@
+body{
+			padding-top: 70px;
+		}
+
+.jumbotron{
+	color:#2c3e50;
+	background:#ecf0f3;
+}
+.navbar-inverse{
+	background:#2c3e50; 
+}
+.navbar-inverse .navbar-nav>li>a{
+	color:white;
+}
+.navbar-inverse .navbar-brand{
+	color: white;
+}/*we overwrite the incepect data in browser to chnage the color
+this css link must stay next to the bootstrap link to be overwritten*/
+
+.flex { /*if you take uneven pictures it fixes the width*/
+  display: flex;
+  flex-wrap: wrap;
+}
+img:hover{
+	box-shadow: 10px 5px 20px 1px;
+	transition-duration: .2s;
+	transform:translate(-20px, -10px);
+}
