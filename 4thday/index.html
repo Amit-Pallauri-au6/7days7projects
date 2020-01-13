@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- font-awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="Assets/CSS/index.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="content">
+         <form id="form" class="form">
+             <fieldset>
+                 <legend><h1>Sign In</h1></legend>
+                 <i style=" width: 25px; height: 25px; padding-left: 9px; padding-top: 6px; color: white; background-color: rgb(4, 88, 88);" class="fas fa-user"></i><input type="text" class="name" id="name" placeholder="Enter Username" required><br>
+            
+
+                 <i style=" width: 25px; height: 25px; padding-left: 9px; padding-top: 6px; color: white; background-color: rgb(4, 88, 88);"  class="fas fa-envelope-open"></i><input type="email" id="mail" placeholder="Enter Your Mail ID" required><br>
+                 
+     
+                 <i style=" width: 25px; height: 25px; padding-left: 9px; padding-top: 6px; color: white; background-color: rgb(4, 88, 88);"  class="fas fa-mobile"></i><input type="number" id="phone" placeholder="Enter Your Phone no." required><br>
+                 
+     
+                 <i style=" width: 25px; height: 25px; padding-left: 9px; padding-top: 6px; color: white; background-color: rgb(4, 88, 88);"  class="fas fa-lock"></i><input type="password" id="password" placeholder="Enter Password" required><br>
+                 <button type="submit" class="button" >submit</button type="submit" >
+            </fieldset>
+        </form>       
+        </div>
+
+        <div class="content2">
+            <h1>Table Content</h1>
+            <table class="table">
+                <thead>    
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone No.</th>
+                </thead>
+                <tbody id="tabled">
+                    <!-- <td></td> -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <!-- javascript -->
+    <script src="Assets/JavaScript/index.js" ></script>
+</body>
+</html>
